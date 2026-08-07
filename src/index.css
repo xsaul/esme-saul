@@ -1,0 +1,38 @@
+:root {
+  --color-bg: #15111a;
+  --color-text: #f4d9e0;
+  --color-accent: #d98ca3;
+  --color-accent-suave: #f0bccb;
+
+  --fuente-display: 'Cormorant Garamond', serif;
+  --fuente-body: 'Jost', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--fuente-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
