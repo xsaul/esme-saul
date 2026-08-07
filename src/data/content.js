@@ -3,7 +3,7 @@ const rutaFoto = (nombre) => `${import.meta.env.BASE_URL}fotos/${nombre}`
 export const secciones = [
   {
   foto: [rutaFoto('1.jpg'), rutaFoto('2.jpg')],
-  texto: 'En el 2023 comenzó esta relación donde empezamos a conocernos ahí en el cenlex. Nos recostabamos en el pasto y podíamos pasar horas hablando de todo. Ahí chismeabamos sobre tus días en la sener, hablabamos sobre nuestras familias y poco a poco comenzabamos a tenermos más confianza.',
+  texto: 'En el 2023 comenzó esta relación donde empezamos a conocernos ahí en el cenlex. Nos recostabamos en el pasto y podíamos pasar horas hablando de todo. Ahí chismeabamos sobre tus días en la sener, hablabamos sobre nuestras familias y poco a poco comenzabamos a tenernos más confianza.',
 },
 
 {
